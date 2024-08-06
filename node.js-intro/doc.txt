@@ -1,0 +1,51 @@
+                                    Introduction to Node.js
+Node.js is an open-source cross-platform runtime environment.Every web browser has a JavaScript engine that 
+compiles JavaScript code to machine code.For example,Firefox uses SpiderMonkey, and Google Chrome uses V8.
+Node.js runs the V8 JavaScript engine, the core of Google Chrome, outside of the browser.
+
+What is V8?
+V8 is Google’s open source high-performance JavaScript and WebAssembly engine, written in C++. It is used in 
+Chrome and in Node.js, among others. It implements ECMAScript and WebAssembly, and runs on Windows, macOS, 
+and Linux systems that use x64, IA-32, or ARM processors. V8 can be embedded into any C++ application.
+Why node.js ?
+
+Node.js is good for prototyping and agile development,allowing us to build fast and highly scalable 
+applications.
+
+Node.js has a wide range of real-world applications:
+
+Scalable network applications: Node.js is used by big companies like LinkedIn, Uber, and Netflix to develop 
+scalable applications.
+
+Real-time applications – Since Node.js uses an event-driven, non-blocking I/O model, it is ideal for 
+real-time applications including chat and online gaming.
+
+API and Microservices – Node.js is commonly used to develop Restful APIs and microservices.
+
+IoT devices: Node.js powers various Internet of Things (IoT) applications.
+
+Differences between Node.js and the Browser -
+Both the browser and Node.js use JavaScript as their programming language. Building apps that run in the 
+browser is completely different from building a Node.js application. Despite the fact that it's always 
+JavaScript, there are some key differences that make the experience radically different.
+In the image of Browser-vs-nodejs.png
+
+How to install Node.js ?
+Node.js can be installed in different ways. This post highlights the most common and convenient ones. 
+Official packages for all the major platforms are available at https://nodejs.org/download/.
+
+One very convenient way to install Node.js is through a package manager. In this case, every operating 
+system has its own. Other package managers for macOS, Linux, and Windows are listed 
+in https://nodejs.org/download/package-manager/.
+
+nvm is a popular way to run Node.js. It allows you to easily switch the Node.js version, and install new 
+versions to try and easily rollback if something breaks. It is also very useful to test your code with old 
+Node.js versions.
+ https://github.com/nvm-sh/nvm for more information about this option.
+
+
+
+
+
+
+
