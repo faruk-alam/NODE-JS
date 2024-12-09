@@ -1,7 +1,7 @@
 import http from "http"
 let port = 7000;
 let server = http.createServer((req,res) => {
-    //res.write("Hello World !")
+    // res.write("Hello World !")
     // res.setHeader("Content-Type","text/html")
     res.setHeader("Content-Type","text/plain")
     //res.statusCode = 404;

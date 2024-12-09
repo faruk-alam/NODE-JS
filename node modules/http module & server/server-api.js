@@ -1,5 +1,5 @@
 import { createServer } from "http"
-const PORT = 8080;
+const PORT = 9000;
 
 let users = [
     {id : 1,Name : "Salman khan"},
@@ -22,5 +22,5 @@ let server = createServer((req,res) =>{
      }  
     })
 server.listen(PORT,()=>{
-    console.log("Server running on " + PORT)
+    
 })

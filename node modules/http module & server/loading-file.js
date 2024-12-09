@@ -18,8 +18,7 @@ let server = http.createServer(async(req,res) => {
                 filePath = path.join(_dirname,"files loading","about.html")
 
             }else{
-                throw new Error("File not found");
-                
+                throw new Error("File not found");               
             }       
         } else{
             throw new Error("method not allowed");
